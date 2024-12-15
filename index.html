@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BARBARIDADE</title>
+  <link rel="stylesheet" href="css/LojaVirtual.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<!-- Cabeçalho -->
+<header id="main-header">
+  <div id="header-content">
+    <button id="menu-toggle">☰</button>
+    <div class="logo-text">BARBARIDADE</div>
+    <div class="search-cart">
+      <input type="text" placeholder="Procurar item..." class="search-bar">
+      <button id="cart-button">🛒</button>
+    </div>
+  </div>
+</header>
+
+<!-- Barra Lateral -->
+<aside id="sidebar">
+  <button id="close-sidebar">✖</button>
+  <h3>Categorias</h3>
+  <button class="category" data-category="lanches">Lanches</button>
+  <button class="category" data-category="bebidas">Bebidas</button>
+  <button class="category" data-category="petiscos">Petiscos</button>
+  <button class="category" data-category="jantas">Jantas</button>
+</aside>
+
+<main id="product-list">
+  <section class="category-section" id="lanches">
+    <h2>Lanches</h2>
+    <div class="category-items">
+      <div class="product-card">
+        <img src="img/Hamburguer.jpg" alt="Hambúrguer Artesanal">
+        <h3>Hambúrguer Artesanal</h3>
+        <p>R$ 25,00</p>
+        <div class="product-info">
+          <ul>
+            <li>Bacon</li>
+            <li>Frango</li>
+            <li>Double hambúrguer</li>
+          </ul>
+        </div>
+        <button class="add-to-cart">Adicionar</button>
+      </div>
+      <div class="product-card">
+        <img src="img/Xtudo.jpg" alt="Sanduíches">
+        <h3>Sanduíches</h3>
+        <p>R$ 30,00</p>
+        <div class="product-info">
+          <ul>
+            <li>X-Tudo</li>
+            <li>X-Bacon</li>
+            <li>X-Salada</li>
+            <li>No prato</li>
+          </ul>
+        </div>
+        <button class="add-to-cart">Adicionar</button>
+      </div>
+      <div class="product-card">
+        <img src="img/espetinho.jpg" alt="Espetinho">
+        <h3>Espetinho</h3>
+        <p>R$ 20,00</p>
+        <div class="product-info">
+          <ul>
+            <li>Frango com Bacon</li>
+            <li>Lombinho</li>
+            <li>Cupim</li>
+            <li>Coração</li>
+          </ul>
+        </div>
+        <button class="add-to-cart">Adicionar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bebidas -->
+  <section class="category-section" id="bebidas">
+    <h2>Bebidas</h2>
+    <div class="subsection">
+      <h3 class="subsection-title">Sem Álcool</h3>
+      <div class="category-items">
+        <div class="product-card">
+          <img src="img/suco.jpg" alt="Suco Natural">
+          <h3>Suco Natural</h3>
+          <p>R$ 8,00</p>
+          <div class="product-info">
+            <ul>
+              <li>Laranja</li>
+              <li>Maracujá</li>
+              <li>Limão</li>
+              <li>Uva</li>
+            </ul>
+          </div>
+          <button class="add-to-cart">Adicionar</button>
+        </div>
+        <div class="product-card">
+          <img src="img/Refri.jpg" alt="Refrigerante">
+          <h3>Refrigerante</h3>
+          <p>R$ 5,00</p>
+          <div class="product-info">
+            <ul>
+              <li>Coca-Cola</li>
+              <li>Fanta</li>
+              <li>Sprite</li>
+              <li>Guaraná</li>
+            </ul>
+          </div>
+          <button class="add-to-cart">Adicionar</button>
+        </div>
+      </div>
+    </div>
+    <div class="subsection">
+      <h3 class="subsection-title">Alcoólicas</h3>
+      <div class="category-items">
+        <div class="product-card">
+          <img src="img/Cerveja.jpg" alt="Cerveja">
+          <h3>Cerveja Artesanal</h3>
+          <p>R$ 12,00</p>
+          <div class="product-info">
+            <ul>
+              <li></li>
+              <li>Skol (lata)</li>
+              <li>heineken (1 litro)</li>
+              <li>ice 51</li>
+              <li>Budweiser</li>
+            </ul>
+          </div>
+          <button class="add-to-cart">Adicionar</button>
+        </div>
+        <div class="product-card">
+          <img src="img/caipirinha.jpg" alt="Caipirinha">
+          <h3>Caipirinha</h3>
+          <p>R$ 15,00</p>
+          <div class="product-info">
+            <ul>
+              <li></li>
+              <li>Gelo</li>
+              <li>Limão</li>
+              <li>Cachaça</li>
+              <li>Suco de Limão</li>
+            </ul>
+          </div>
+          <button class="add-to-cart">Adicionar</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Petiscos -->
+  <section class="category-section" id="petiscos">
+    <h2>Petiscos</h2>
+    <div class="category-items">
+      <div class="product-card">
+        <img src="img/tilapia.jpg" alt="Tilapia">
+        <h3>Tilápia</h3>
+        <p>R$ 25,00</p>
+        <div class="product-info">
+          <ul>
+            <li></li>
+            <li>Filé de Tilápia</li>
+            <li>Ketchup</li>
+            <li>Molho Especial</li>
+          </ul>
+        </div>
+        <
+        <button class="add-to-cart">Adicionar</button>
+      </div>
+      <div class="product-card">
+        <img src="img/batata.jpg" alt="Batata Frita">
+        <h3>Batata Frita</h3>
+        <p>R$ 15,00</p>
+        <div class="product-info">
+          <ul>
+            <li></li>
+            <li>Batata Frita</li>
+            <li>Sal</li>
+            <li>Ketchup</li>
+            <li>Molho Especial</li>
+          </ul>
+        </div>
+        <button class="add-to-cart">Adicionar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Jantas -->
+  <section class="category-section" id="jantas">
+    <h2>Jantas</h2>
+    <div class="category-items">
+      <div class="product-card">
+        <img src="img/file.jpg" alt="Filé com Fritas">
+        <h3>Filé com Fritas</h3>
+        <p>R$ 35,00</p>
+        <div class="product-info">
+          <ul>
+            <li></li>
+            <li>Filé de Porco</li>
+            <li>Filé de Vaca</li>
+            <li>Filé de Frango</li>
+            <li>Filé de Peixe</li>
+          </ul>
+        </div>
+        <button class="add-to-cart">Adicionar</button>
+      </div>
+      <div class="product-card">
+        <img src="img/strogonoff.jpg" alt="Strogonoff de Frango">
+        <h3>Strogonoff de Frango</h3>
+        <p>R$ 40,00</p>
+        <div class="product-info">
+          <ul>
+            <li></li>
+            <li>Strogonoff de Frango</li>
+            <li>Strogonoff de Carne</li>
+            <li>Strogonoff Especial da Casa</li>
+          </ul>
+        </div>
+        <button class="add-to-cart">Adicionar</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="js/LojaVirtual.js"></script>
+</body>
+</html>
