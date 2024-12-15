@@ -34,5 +34,3 @@ Bem-vindo ao **Barbaridade**, uma loja virtual criada para oferecer uma experiê
 
 ---
 
-## 🎨 Estrutura do Projeto
-
